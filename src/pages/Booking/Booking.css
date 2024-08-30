@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+.booking {
+  font-family: "Roboto Condensed";
+  position: relative;
+}
+.booking_heading {
+  height: 350px;
+  width: 100%;
+  background-color: #ffbcb4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.booking_heading .heading {
+  font-size: 120px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+.booking_heading p {
+  font-size: 35px;
+  font-weight: 500;
+}
+.under {
+  height: 1200px;
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+.under img {
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.top {
+  height: 650px;
+  width: 100%;
+  background-color: white;
+  padding-top: 100px;
+  position: relative;
+  z-index: 1;
+}
+.top_content {
+  height: 95%;
+  width: 70%;
+  margin: auto;
+}
+.book {
+  width: 100%;
+  height: 48%;
+  background-color: #ffbcb4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.top_content_text {
+  height: 50%;
+  width: 70%;
+  margin: auto;
+  padding-top: 35px;
+  text-align: center;
+}
+.head {
+  font-size: 35px;
+  font-weight: 500;
+}
+.cursive {
+  font-family: cursive;
+  margin-bottom: 50px;
+}
+.book p {
+  margin-bottom: 20px;
+}
+.cart {
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.cart:hover {
+  color: gray;
+}
+.book button {
+  width: 100px;
+  height: 40px;
+  padding: 8px 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+.book button:hover {
+  background-color: gray;
+  z-index: 1;
+  opacity: 0.7;
+}
+.showarrow {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .booking_heading {
+    height: 300px;
+  }
+  .booking_heading .heading {
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+  }
+  .booking_heading p {
+    font-size: 25px;
+  }
+  .top {
+    padding-top: 0px;
+    height: 750px;
+  }
+  .top_content {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .top_content_text {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 50%;
+  }
+  .top_content_text .cursive {
+    margin-bottom: 30px;
+  }
+  .top_content_text .head {
+    font-size: 33px;
+  }
+  .top_content_text .parag {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.5em;
+  }
+  .booking_book {
+    height: auto;
+  }
+  .book {
+    width: 85%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 10px;
+  }
+  .under {
+    height: 270px;
+    padding-top: 0px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .under img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .showarrow {
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    position: fixed;
+    z-index: 2;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .top {
+    padding-top: 0px;
+    height: 750px;
+  }
+  .top_content {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .top_content_text {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 50%;
+    padding-top: 35px;
+  }
+  .top_content_text .cursive {
+    margin-bottom: 30px;
+  }
+  .top_content_text .head {
+    font-size: 33px;
+  }
+  .top_content_text .parag {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.5em;
+  }
+  .booking_book {
+    height: auto;
+  }
+  .book {
+    width: 85%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 10px;
+  }
+  .under {
+    height: 370px;
+    padding-top: 0px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .under img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .top {
+    padding-top: 50px;
+    height: 750px;
+  }
+  .top_content {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .top_content_text {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 50%;
+    padding-top: 35px;
+  }
+  .top_content_text .cursive {
+    margin-bottom: 30px;
+  }
+
+  .top_content_text .parag {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5em;
+  }
+  .booking_book {
+    height: auto;
+  }
+  .book {
+    width: 85%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 10px;
+  }
+  .under {
+    height: 1000px;
+  }
+  .under img {
+    width: 150vw;
+    object-fit: cover;
+  }
+}

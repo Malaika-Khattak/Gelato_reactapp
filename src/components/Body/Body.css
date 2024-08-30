@@ -1,0 +1,522 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+.body {
+  font-family: "Roboto Condensed";
+  position: relative;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.backlayer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1400px;
+  width: 100%;
+  z-index: -1;
+  transform: translateZ(-1px) scale(2);
+}
+.backlayer1 {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b4ecd4;
+}
+
+.size {
+  width: 50%;
+  height: 40%;
+  object-fit: cover;
+  will-change: transform, opacity;
+}
+.upperlayer {
+  position: relative;
+  z-index: 1;
+}
+.upperlayer1 {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.upperlayer1 img {
+  width: 50%;
+  object-fit: cover;
+}
+.upper-content {
+  height: 400px;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 0 50px;
+}
+.content1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: larger;
+}
+.cursive {
+  font-family: "Pacifico", cursive;
+}
+.upper-content button {
+  background-color: transparent;
+  padding: 10px 20px;
+  font-weight: bold;
+  width: 150px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+.dairy {
+  text-align: center;
+}
+.upper-content button:hover {
+  background-color: black;
+  color: white;
+}
+.upperlayer2 {
+  width: 100%;
+  height: 800px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.upperlayer2 .enjoy {
+  font-size: 40px;
+  font-weight: 500;
+}
+.upperlayer2 .dairy {
+  margin-left: 10px;
+  font-size: 150px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+}
+.upperlayer2 button {
+  font-size: 16px;
+  background-color: white;
+  color: rgb(58, 55, 55);
+  padding: 15px 20px;
+  font-weight: bold;
+  width: 150px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  align-self: center;
+}
+.upperlayer2 button:hover {
+  background-color: rgb(58, 55, 55);
+  color: white;
+}
+.upperlayer3 {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.upperlayer3 img {
+  width: 50%;
+  object-fit: cover;
+}
+.upper3-content {
+  height: 400px;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 0 10px;
+}
+
+.upper3-content .content1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: larger;
+}
+.cursive {
+  font-family: "Pacifico", cursive;
+}
+.upper3-content button {
+  background-color: transparent;
+  padding: 10px 20px;
+  font-weight: bold;
+  width: 150px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.upper3-content button:hover {
+  background-color: black;
+  color: white;
+}
+.upperlayer4 {
+  width: 100%;
+  height: 800px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.upperlayer4 .enjoy {
+  font-size: 40px;
+  font-weight: 500;
+}
+.upperlayer4 .dairy {
+  font-size: 150px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+}
+.upperlayer4 button {
+  font-size: 16px;
+  background-color: white;
+  color: rgb(58, 55, 55);
+  padding: 15px 20px;
+  font-weight: bold;
+  width: 150px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  align-self: center;
+}
+.upperlayer4 button:hover {
+  background-color: rgb(58, 55, 55);
+  color: white;
+}
+
+.upperlayer5 {
+  height: 650px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.upperlayer5 img {
+  width: 50%;
+  object-fit: cover;
+}
+.upper5-content {
+  height: 400px;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 50px;
+  padding: 0 20px;
+}
+.upper5-content .content1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: larger;
+}
+.cursive {
+  font-family: "Pacifico", cursive;
+}
+.upper5-content button {
+  background-color: transparent;
+  padding: 10px 20px;
+  font-weight: bold;
+  width: 150px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+.upper5-content button:hover {
+  background-color: black;
+  color: white;
+}
+.lowerbody {
+  height: 800px;
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+.lowerbody_back {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.lowerbody_back .double {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 60px;
+}
+.icecone {
+  width: 45vw;
+  object-fit: cover;
+}
+
+.lowerbody_upper {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  outline: none; /* Remove focus outline */
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5f7;
+  background: repeating-linear-gradient(
+    45deg,
+    #b4ecd4,
+    #b4ecd4 100px,
+    white 100px,
+    white 200px
+  );
+}
+.lowerbody_upper::-webkit-scrollbar {
+  display: none;
+}
+.images {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.scoop-container {
+  display: flex;
+  flex-direction: row;
+}
+.lowerbody_upper .scoop {
+  width: 18vw;
+  object-fit: cover;
+}
+
+.s1,
+.s2 {
+  margin-right: 30px;
+}
+
+.s5 {
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .upperlayer1,
+  .upperlayer3,
+  .upperlayer5 {
+    display: block;
+  }
+  .upperlayer button {
+    margin-top: 14px;
+  }
+
+  .upper3-content {
+    width: 100%;
+    height: 50%;
+    font-size: small;
+    padding: 0px 10px;
+    gap: 0px;
+  }
+  .upperlayer1 img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .upperlayer3 img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .upperlayer5 img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .backlayer {
+    display: none;
+  }
+  .upperlayer2,
+  .upperlayer4 {
+    background-color: #b4ecd4;
+    justify-content: flex-start;
+    padding-top: 30px;
+    height: 550px;
+  }
+  .upperlayer4 button {
+    margin: 0px;
+  }
+  .upperlayer2 button {
+    margin: 0px;
+  }
+  .upperlayer2 .enjoy {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .upperlayer2 .dairy {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0em;
+  }
+  .upperlayer4 .enjoy {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .upperlayer4 .dairy {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0em;
+  }
+  .upperlayer2 img {
+    width: 600px;
+    margin-left: 15px;
+  }
+  .upperlayer4 img {
+    width: 600px;
+    margin-left: 15px;
+  }
+  .lowerbody {
+    height: 400px;
+  }
+  .lowerbody_upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .scoop-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; /* Adjust spacing between scoops */
+  }
+
+  .lowerbody_upper .scoop {
+    width: 20vw;
+    object-fit: cover;
+    margin: 0px;
+  }
+  .icecone {
+    margin: 0px;
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .upperlayer1,
+  .upperlayer3,
+  .upperlayer5 {
+    display: block;
+    height: 750px;
+  }
+  .upperlayer button {
+    margin-top: 18px;
+  }
+
+  .upper3-content {
+    width: 100%;
+    height: 50%;
+    font-size: small;
+    padding: 0px 10px;
+    gap: 0px;
+  }
+  .upperlayer1 img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .upperlayer3 img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .upperlayer5 img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .backlayer {
+    display: none;
+  }
+  .upperlayer2,
+  .upperlayer4 {
+    background-color: #b4ecd4;
+    justify-content: flex-start;
+    padding-top: 30px;
+    height: 590px;
+  }
+  .upperlayer2 .enjoy {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .upperlayer2 .dairy {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0em;
+  }
+  .upperlayer4 .enjoy {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .upperlayer4 .dairy {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0em;
+  }
+
+  .lowerbody {
+    height: 400px;
+  }
+  .lowerbody_upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .scoop-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; /* Adjust spacing between scoops */
+  }
+
+  .lowerbody_upper .scoop {
+    width: 20vw;
+    object-fit: cover;
+    margin: 0px;
+  }
+  .icecone {
+    margin: 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .lowerbody {
+    height: 600px;
+  }
+  .lowerbody_upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .scoop-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; /* Adjust spacing between scoops */
+  }
+
+  .lowerbody_upper .scoop {
+    width: 20vw;
+    object-fit: cover;
+    margin: 0px;
+  }
+  .icecone {
+    margin: 0px;
+  }
+}

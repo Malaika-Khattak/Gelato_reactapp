@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+.bookcart {
+  height: 700px;
+  width: 100%;
+  font-family: "Roboto Condensed";
+}
+.backward {
+  height: 40px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.backward img {
+  width: 10px;
+}
+.booking_content {
+  height: 90%;
+  margin-top: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.heading h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.timing_selection {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+.timing_selection .date_time {
+  width: 80%;
+  padding: 40px 50px;
+}
+.timing_selection .bookcart_details {
+  width: 40%;
+}
+.date_time .date {
+  width: 400px;
+  height: 350px;
+}
+
+.date_time .time {
+  width: 300px;
+  height: 350px;
+}
+.calender_times {
+  display: flex;
+  gap: 10px;
+}
+.calender_times .time p {
+  font-size: 18px;
+  text-align: start;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.time .timeslots {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  padding-top: 10px;
+}
+.timeslots .slote {
+  width: 140px;
+  height: 50px;
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid black;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  transition: 0.1s;
+}
+.notavailabe button {
+  margin-top: 20px;
+  border: none;
+  width: 300px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Roboto Condensed";
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.slote.selected {
+  background-color: rgb(155, 149, 149);
+}
+
+.bookcart_details img {
+  width: 20px;
+}
+.bookcart_details .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bookcart_details .hide {
+  display: none;
+}
+
+.bookcart_info {
+  margin: 20px 0px;
+}
+
+.bookcart_details button {
+  margin-top: 20px;
+  border: none;
+  width: 300px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Roboto Condensed";
+}
+.click {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.bookcart_details .details {
+  padding-top: 35px;
+}
+.details .btn {
+  margin-top: 8px;
+}
+
+.notclick {
+  background-color: rgb(187, 180, 180);
+  color: white;
+}
+
+.contents {
+  font-size: 15px;
+  text-align: center;
+}
+.contents p {
+  display: inline;
+  margin-right: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.react-calendar {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Calendar header */
+.react-calendar__navigation button {
+  color: #333;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.react-calendar__navigation button:disabled {
+  color: #ccc;
+}
+
+.react-calendar__navigation button:hover,
+.react-calendar__navigation button:focus {
+  color: #007bff;
+}
+
+/* Calendar weekdays */
+.react-calendar__month-view__weekdays__weekday {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Calendar days */
+.react-calendar__tile {
+  color: #333;
+  background: none;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.react-calendar__tile:disabled {
+  color: #ccc;
+  background: #f0f0f0;
+}
+
+.react-calendar__tile--now {
+  background: #e6f7ff;
+  border: 1px solid #007bff;
+}
+
+.react-calendar__tile--active {
+  background: #007bff;
+  color: #fff;
+}
+
+.react-calendar__tile--active:hover,
+.react-calendar__tile--active:focus {
+  background: #0056b3;
+}
+
+/* Calendar tile hover and focus states */
+.react-calendar__tile:hover,
+.react-calendar__tile:focus {
+  background: #f0f8ff;
+}
+.react-calendar__month-view__days__day--weekend:nth-child(7n) {
+  color: red; /* Change text color to red */
+}
+
+/* Revert Saturday back to default color */
+.react-calendar__month-view__days__day--weekend:nth-child(7n + 6) {
+  color: #333; /* Change text color back to default */
+}

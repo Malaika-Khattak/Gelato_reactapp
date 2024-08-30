@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+.reserve {
+  height: 800px;
+  width: 100%;
+  padding-top: 50px;
+  font-family: "Roboto Condensed";
+}
+.reserve_content {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+.text {
+  text-align: center;
+  width: 90%;
+  height: 20%;
+  margin: auto;
+}
+.text .head {
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  margin-bottom: 20px;
+}
+.text .para {
+  font-size: 22px;
+  font-weight: 500;
+}
+.reserve_main {
+  width: 100%;
+  height: 600px;
+  margin-top: 30px;
+  padding: 50px;
+}
+.date {
+  display: flex;
+  gap: 20px;
+  height: 100px;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.selection {
+  width: 400px;
+  padding: 0px 10px;
+}
+
+.selection_datt {
+  width: 400px;
+  padding: 5px 10px;
+  margin-top: 29px;
+}
+
+.selection select {
+  width: 280px;
+  height: 40px;
+  margin-top: 10px;
+}
+.datepicker {
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+}
+.hr {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(175, 168, 168);
+  border: none;
+  margin-bottom: 45px;
+  margin-top: 5px;
+}
+.times {
+  margin-top: 10px;
+  width: 100%;
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(5, 190px);
+  margin-bottom: 20px;
+}
+
+.slot {
+  width: 180px;
+  height: 60px;
+  background-color: white;
+  margin: 10px 20px;
+  padding-top: 18px;
+  border: 1px solid black;
+  text-align: center;
+}
+.point {
+  cursor: pointer;
+}
+
+.selection_datt {
+  margin-top: 40px;
+}
+
+.gray-background {
+  background-color: rgb(206, 198, 198);
+  color: white;
+  border: none;
+}
+.highlight {
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: rgb(206, 198, 198);
+}
+
+.react-datepicker__input-container {
+  height: 90px;
+}
+
+.reserve_main .reservebtn {
+  width: 160px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  line-height: 20px;
+  border: none;
+  position: absolute;
+  left: 46%;
+  cursor: pointer;
+}
+.dontdisplay {
+  display: none;
+}
+.displayconfirmation {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 150%;
+  background-color: rgba(0, 0, 0, 0.565);
+  display: grid;
+  top: 12.5%;
+}
+.info {
+  place-self: center;
+  width: max(23vw, 3px);
+  color: gray;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px 30px;
+  border-radius: 8px;
+  font-size: 14px;
+  animation: fadein 0.5s;
+}
+.info img {
+  width: 16px;
+  position: absolute;
+  cursor: pointer;
+  left: 59%;
+}
+.info .details {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 480px) {
+  .reserve {
+    height: 1130px;
+  }
+
+  .text .head {
+    letter-spacing: 0.2em;
+  }
+  .text .para {
+    font-weight: 400;
+    font-size: 19px;
+  }
+  .reserve_main {
+    margin-top: 0px;
+    padding-left: 30px;
+  }
+  .reserve_content {
+    margin-left: 38px;
+  }
+  .date {
+    display: block;
+    height: auto;
+    margin-right: 20px;
+  }
+  .timeslot {
+    height: 380px;
+    width: 300px;
+  }
+  .times {
+    grid-template-columns: repeat(3, 1fr); /* Adjust the grid to 2 columns */
+    grid-template-rows: repeat(5, 1fr); /* Add rows to fit the slots */
+    gap: 5px; /* Add some space between the time slots */
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .slot {
+    width: 80px;
+    height: 40px;
+    margin: 10px 10px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .selection {
+    width: 290px;
+  }
+  .selection_datt {
+    width: 290px;
+  }
+  .datepicker {
+    width: 280px;
+  }
+  .reserve_main .reservebtn {
+    width: 67%;
+    left: 18%;
+  }
+  .hr {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .reserve {
+    height: 1130px;
+  }
+
+  .text .head {
+    letter-spacing: 0.15em;
+  }
+  .text .para {
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .reserve_main {
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  .reserve_content {
+    margin: 0px auto;
+  }
+  .date {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 8px;
+  }
+  .timeslot {
+    height: 380px;
+    width: 600px;
+  }
+  .times {
+    grid-template-columns: repeat(3, 0.8fr); /* Adjust the grid to 2 columns */
+    grid-template-rows: repeat(5, 1fr); /* Add rows to fit the slots */
+    gap: 0px; /* Add some space between the time slots */
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .slot {
+    width: 160px;
+    height: 50px;
+    margin: 10px 5px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .selection {
+    width: 400px;
+  }
+  .selection select {
+    width: 100%;
+  }
+  .selection_datt {
+    width: 400px;
+  }
+
+  .datepicker {
+    width: 380px;
+  }
+  .reserve_main .reservebtn {
+    width: 77%;
+    left: 15%;
+    margin-top: 40px;
+  }
+  .hr {
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .reserve {
+    height: 1100px;
+  }
+  .text .head {
+    letter-spacing: 0.2em;
+  }
+  .text .para {
+    font-weight: 400;
+    font-size: 19px;
+  }
+  .reserve_main {
+    margin-top: 0px;
+    padding-left: 30px;
+  }
+  .reserve_content {
+    width: 85%;
+  }
+
+  .timeslot {
+    height: 380px;
+    width: 300px;
+  }
+  .timeslot p {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .times {
+    grid-template-columns: repeat(4, 1fr); /* Adjust the grid to 2 columns */
+    grid-template-rows: repeat(5, 1fr); /* Add rows to fit the slots */
+    gap: 5px; /* Add some space between the time slots */
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .slot {
+    width: 180px;
+    height: 60px;
+    margin: 10px 10px;
+    text-align: center;
+    padding-top: 18px;
+  }
+  .selection {
+    width: 250px;
+  }
+  .selection select {
+    width: 250px;
+  }
+  .selection_datt {
+    width: 250px;
+    margin-top: 40px;
+  }
+  .datepicker {
+    width: 250px;
+  }
+  .date {
+    margin-bottom: 40px;
+  }
+  .reserve_main .reservebtn {
+    width: 50%;
+    left: 27%;
+    margin-top: 60px;
+  }
+  .hr {
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+}

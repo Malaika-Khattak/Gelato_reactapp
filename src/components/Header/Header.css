@@ -1,0 +1,72 @@
+.header {
+  height: 800px;
+  width: 100%;
+  background-color: #f9db79;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  position: relative;
+  background-image: url("../../assests/cone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+}
+.header-content {
+  position: relative;
+}
+.header-content-title {
+  margin-top: 240px;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  left: 15%;
+  font-size: 2.5vw;
+  z-index: 3;
+}
+.header-content-title h3 {
+  margin-bottom: 35px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.title {
+  font-size: 9vw;
+  letter-spacing: 0.2em;
+  font-weight: 800;
+  margin-bottom: 35px;
+}
+.header-content-title button {
+  background-color: transparent;
+  padding: 10px 20px;
+  font-weight: bold;
+  width: 150px;
+  align-self: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+  color: black;
+  border: 2px solid black;
+  margin-right: 24px;
+}
+.header-content-title button:hover {
+  background-color: black;
+  color: white;
+}
+@media only screen and (max-width: 480px) {
+  .header {
+    background-size: 70%;
+    height: 670px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .header {
+    background-size: 50%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    background-size: 40%;
+  }
+}

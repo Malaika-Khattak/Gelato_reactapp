@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+.about {
+  font-family: "Roboto Condensed";
+  position: relative;
+}
+.about_heading {
+  height: 400px;
+  width: 100%;
+  background-color: plum;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about_heading .heading {
+  font-size: 120px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+.about_heading p {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.back {
+  height: 1600px;
+  width: 100%;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.place {
+  position: relative;
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  padding-top: 20px;
+}
+.place .content {
+  height: 90%;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+.head {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.cursive {
+  font-size: large;
+  font-weight: 500;
+}
+.content .para {
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+.factory {
+  position: relative;
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  padding-top: 20px;
+}
+.factory .content {
+  height: 90%;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .about_heading {
+    height: 300px;
+  }
+  .about_heading .heading {
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+  }
+  .about_heading p {
+    font-size: 25px;
+  }
+  .place .content {
+    height: 100%;
+    width: 70%;
+  }
+  .place {
+    height: 650px;
+    padding-top: 30px;
+  }
+  .head {
+    font-size: 30px;
+  }
+  .content .para {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .cursive {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  .back {
+    height: 340px;
+    padding-top: 0px;
+    position: relative;
+    z-index: 1;
+  }
+  .factory {
+    height: 700px;
+    padding-top: 30px;
+  }
+  .factory .content {
+    width: 70%;
+  }
+  .factory .content .head {
+    margin-bottom: 15px;
+  }
+
+  .back img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .about_heading .heading {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+  }
+  .about_heading p {
+    font-size: 35px;
+  }
+  .place .content {
+    height: 100%;
+    width: 70%;
+  }
+  .place {
+    height: 650px;
+    padding-top: 30px;
+  }
+
+  .content .para {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .cursive {
+    font-size: 19px;
+    margin-bottom: 30px;
+  }
+  .back {
+    height: 450px;
+    padding-top: 0px;
+    position: relative;
+    z-index: 1;
+  }
+  .factory {
+    height: 700px;
+    padding-top: 30px;
+  }
+  .factory .content {
+    width: 70%;
+  }
+  .factory .content .head {
+    margin-bottom: 15px;
+  }
+
+  .back img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .place .content {
+    height: 100%;
+    width: 70%;
+    padding-top: 50px;
+  }
+  .place {
+    height: 600px;
+    padding-top: 30px;
+  }
+  .head {
+    font-size: 50px;
+  }
+  .content .para {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .cursive {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .back {
+    height: 550px;
+    padding-top: 0px;
+    position: relative;
+    z-index: 1;
+  }
+  .factory {
+    height: 610px;
+    padding-top: 30px;
+  }
+  .factory .content {
+    width: 70%;
+  }
+  .factory .content .head {
+    margin-bottom: 15px;
+  }
+
+  .back img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
