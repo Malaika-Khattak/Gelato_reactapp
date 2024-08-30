@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
@@ -33,7 +33,8 @@ function App() {
             count={count}
             setcount={setcount}
           />
-          <div className="content">
+
+          <Router basename="/">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/flavor" element={<Flavor />} />
@@ -67,7 +68,7 @@ function App() {
                 }
               />
             </Routes>
-          </div>
+          </Router>
         </CartProvider>
         <Footer />
       </div>
