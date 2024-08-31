@@ -299,9 +299,8 @@
   width: 100%;
   height: 100vh;
   display: grid;
-  top: 10.5%;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.565);
-  margin-top: 8px;
 }
 .cart_info .cartitems {
   position: fixed;
