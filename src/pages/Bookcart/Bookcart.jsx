@@ -80,7 +80,7 @@ const Bookcart = () => {
 
   return (
     <div className="bookcart">
-      <div className="backward" onClick={handlebackclick}>
+      <div className="backwardbtn" onClick={handlebackclick}>
         <img src={less_icon} alt="" />
         <p>Back</p>
       </div>

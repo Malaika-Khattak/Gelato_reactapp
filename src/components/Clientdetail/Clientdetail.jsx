@@ -19,7 +19,7 @@ const Clientdetail = ({ setshowlogin }) => {
 
   return (
     <div className="client">
-      <div className="backward" onClick={handlebackclick}>
+      <div className="backwardbutton" onClick={handlebackclick}>
         <img src={less_icon} alt="" />
         <p>Back</p>
       </div>
@@ -84,7 +84,7 @@ const Clientdetail = ({ setshowlogin }) => {
             )}
           </div>
           <div className={seedetail === false ? "show_detail" : "hide"}>
-            <p>ICE CREAM CART</p>
+            <p className="show_cream">ICE CREAM CART</p>
             <p>
               {startdate.toDateString()} at {selectedTimeSlot}
             </p>
@@ -93,8 +93,11 @@ const Clientdetail = ({ setshowlogin }) => {
           </div>
           <div className="payment">
             <p className="pay">Payment Details</p>
-            <p className="total">Total</p>
-            <span>$200</span>
+            <div className="total">
+              <p>Total</p>
+              <span>$200</span>
+            </div>
+
             <button
               type="button"
               onClick={() => {

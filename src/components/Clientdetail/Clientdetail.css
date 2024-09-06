@@ -6,7 +6,7 @@
 
   font-family: "Roboto Condensed";
 }
-.backward {
+.backwardbutton {
   height: 40px;
   width: 80px;
   display: flex;
@@ -17,7 +17,7 @@
   margin-left: 150px;
   margin-top: 50px;
 }
-.backward img {
+.backwardbutton img {
   width: 10px;
 }
 .information {
@@ -32,6 +32,9 @@
   width: 65%;
   height: 100%;
   padding-top: 50px;
+}
+.client_info label {
+  text-align: left;
 }
 .client_info h1 {
   text-align: center;
@@ -90,7 +93,6 @@
 .booking_detail {
   width: 300px;
   height: 350px;
-
   margin-top: 40px;
   padding: 10px;
 }
@@ -103,6 +105,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.btn p {
+  font-size: 18px;
+}
 .hide {
   display: none;
 }
@@ -113,12 +118,28 @@
   margin-top: 45px;
 }
 .payment .pay {
+  display: block;
   margin-bottom: 20px;
   font-weight: 500;
+  text-align: left;
+  font-size: 18px;
 }
 .total {
-  display: inline;
-  margin-right: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.total p {
+  font-size: 18px;
+}
+.total span {
+  font-weight: 500;
+}
+.show_detail {
+  text-align: left;
+}
+.show_cream {
+  display: block;
 }
 .payment button {
   display: block;
@@ -138,16 +159,15 @@
   position: absolute;
   z-index: 1;
   width: 100%;
-  height: 170%;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.565);
   display: grid;
-  top: 12.5%;
+  top: 0;
 }
 
 .confirm {
   place-self: center;
   width: max(40vw, 10px);
-  height: 400px;
   color: black;
   background-color: white;
   display: flex;
@@ -176,4 +196,126 @@
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+  .client {
+    margin: 10px 25px;
+    width: 94%;
+    height: auto;
+  }
+  .backwardbutton {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .information {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+  .information .client_info {
+    width: 100%;
+  }
+  .client_info label {
+    text-align: left;
+  }
+  .name_email {
+    display: flex;
+    flex-direction: column;
+  }
+  .namee,
+  .email {
+    width: 100%;
+  }
+  .phone_msg .msg input {
+    height: 50px;
+  }
+  .booking_detail {
+    padding-top: 100px;
+    height: 420px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .client {
+    margin: 10px 20px;
+    width: 95%;
+    height: auto;
+  }
+  .backwardbutton {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .information {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .information .client_info {
+    width: 100%;
+  }
+  .client_info label {
+    text-align: left;
+  }
+  .name_email {
+    display: flex;
+    flex-direction: column;
+  }
+  .namee,
+  .email {
+    width: 100%;
+  }
+  .phone_msg .msg input {
+    height: 50px;
+  }
+  .booking_detail {
+    padding-top: 100px;
+    height: 420px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .client {
+    margin: 10px 20px;
+    width: 95%;
+    height: 800px;
+  }
+  .backwardbutton {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .information {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .information .client_info {
+    width: 100%;
+  }
+  .client_info label {
+    text-align: left;
+  }
+  .name_email {
+    display: flex;
+    flex-direction: column;
+  }
+  .namee,
+  .email {
+    width: 100%;
+  }
+
+  .booking_detail {
+    padding-top: 100px;
+    height: 420px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 50%;
+  }
 }

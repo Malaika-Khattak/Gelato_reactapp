@@ -204,7 +204,7 @@ const Cart = ({ count, setcount, pickoption }) => {
             <button
               type="button"
               onClick={() => {
-                setshowpop(false);
+                navigate("/");
               }}
               alt="Close"
             >

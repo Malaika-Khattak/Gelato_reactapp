@@ -5,7 +5,7 @@
   width: 100%;
   font-family: "Roboto Condensed";
 }
-.backward {
+.backwardbtn {
   height: 40px;
   width: 80px;
   display: flex;
@@ -13,10 +13,9 @@
   justify-content: center;
   gap: 10px;
   cursor: pointer;
-  margin-left: 150px;
-  margin-top: 50px;
+  margin: 50px 0px 0px 150px;
 }
-.backward img {
+.backwardbtn img {
   width: 10px;
 }
 .booking_content {
@@ -225,4 +224,251 @@
 /* Revert Saturday back to default color */
 .react-calendar__month-view__days__day--weekend:nth-child(7n + 6) {
   color: #333; /* Change text color back to default */
+}
+
+@media only screen and (max-width: 480px) {
+  .backwardbtn {
+    margin: 0px;
+  }
+  .backwardbtn p {
+    font-size: 15px;
+  }
+  .bookcart {
+    margin: 20px 20px;
+    width: 90%;
+    height: 1300px;
+  }
+  .bookcart_details .btn {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .booking_content {
+    margin: 0px;
+  }
+  .heading {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .heading h1 {
+    font-size: 30px;
+  }
+  .heading p {
+    font-size: 15px;
+  }
+
+  .contents {
+    align-items: center;
+  }
+  .contents .select {
+    display: block;
+    font-weight: 600;
+    width: 70%;
+    margin: 0px auto;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .timing_selection {
+    display: block;
+  }
+  .calender_times {
+    display: block;
+  }
+  .timing_selection .date_time {
+    padding: 40px 30px;
+  }
+
+  .date_time .date {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .date_time .time {
+    margin-top: 200px;
+  }
+  .timing_selection .bookcart_details {
+    margin-top: 500px;
+    width: 100%;
+    margin-left: 10px;
+    padding-top: 50px;
+  }
+  .bookcart_info {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .bookcart_info .carthead {
+    font-size: 17px;
+  }
+  .deet p {
+    font-size: 15px;
+  }
+  .click {
+    margin-left: 30px;
+  }
+  .notclick {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .backwardbtn {
+    margin: 0px;
+  }
+  .backwardbtn p {
+    font-size: 15px;
+  }
+  .bookcart {
+    margin: 20px 20px;
+    width: 90%;
+    height: 1220px;
+  }
+  .bookcart_details .btn {
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
+  .booking_content {
+    margin: 0px;
+  }
+  .heading {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .heading h1 {
+    font-size: 30px;
+  }
+  .heading p {
+    font-size: 15px;
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contents .select {
+    display: block;
+  }
+  .timing_selection {
+    display: block;
+  }
+  .calender_times {
+    display: block;
+  }
+  .timing_selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timing_selection .bookcart_details {
+    margin-top: 450px;
+    width: 80%;
+    margin-left: 10px;
+    padding-top: 50px;
+  }
+  .time .timeslots {
+    grid-template-columns: repeat(3, 150px);
+  }
+  .date_time .time {
+    height: auto;
+  }
+  .bookcart_info {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .click {
+    margin-left: 30px;
+  }
+  .bookcart_details button {
+    width: 90%;
+  }
+  .notclick {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .backwardbtn {
+    margin: 0px;
+  }
+  .backwardbtn p {
+    font-size: 20px;
+  }
+  .bookcart {
+    margin: 20px 20px;
+    width: 95%;
+    height: 1000px;
+  }
+  .bookcart_details .btn {
+    margin-left: 30px;
+  }
+  .calender_times {
+    gap: 30px;
+  }
+
+  .booking_content {
+    margin: 0px;
+  }
+  .heading {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .heading h1 {
+    font-size: 33px;
+  }
+  .heading p {
+    font-size: 20px;
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contents .select {
+    display: block;
+    font-size: larger;
+  }
+
+  .timing_selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timing_selection .bookcart_details {
+    margin-top: 200px;
+    width: 80%;
+    margin-left: 10px;
+    padding-top: 50px;
+  }
+  .time .timeslots {
+    grid-template-columns: repeat(2, 150px);
+  }
+  .date_time .time {
+    height: auto;
+  }
+  .bookcart_info {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .click {
+    margin-left: 30px;
+  }
+  .bookcart_details button {
+    width: 95%;
+  }
+  .notclick {
+    margin-left: 30px;
+  }
 }
