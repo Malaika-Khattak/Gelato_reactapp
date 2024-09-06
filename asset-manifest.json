@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Gelato_reactapp/static/css/main.923a66c8.css",
+    "main.js": "/Gelato_reactapp/static/js/main.79d99feb.js",
+    "static/js/453.9dc6dbad.chunk.js": "/Gelato_reactapp/static/js/453.9dc6dbad.chunk.js",
+    "static/media/scones.jpeg": "/Gelato_reactapp/static/media/scones.fbc5e273358f2697dc3e.jpeg",
+    "static/media/outdoor.jpg": "/Gelato_reactapp/static/media/outdoor.baea7e7762605597f3fd.jpg",
+    "static/media/macarons.jpg": "/Gelato_reactapp/static/media/macarons.85c60f227e5579101aaf.jpg",
+    "static/media/icecreams.PNG": "/Gelato_reactapp/static/media/icecreams.d90c2e1c74669814e556.PNG",
+    "static/media/icecone.png": "/Gelato_reactapp/static/media/icecone.01dad17c24276f7a0fba.png",
+    "static/media/straw.png": "/Gelato_reactapp/static/media/straw.0a66c0e1aa621e684afb.png",
+    "static/media/icecone.jpeg": "/Gelato_reactapp/static/media/icecone.c810a7f1af3a0b316f4d.jpeg",
+    "static/media/cone.png": "/Gelato_reactapp/static/media/cone.827e9dd71aaad6920b12.png",
+    "static/media/food_1.png": "/Gelato_reactapp/static/media/food_1.14a1434f5bfb2b13490c.png",
+    "static/media/blue.png": "/Gelato_reactapp/static/media/blue.e51ca8ba7ffa7f5a0008.png",
+    "static/media/food_12.png": "/Gelato_reactapp/static/media/food_12.3a1369bfb5bfb624cd10.png",
+    "static/media/food_5.png": "/Gelato_reactapp/static/media/food_5.3f4259303f09bdd98341.png",
+    "static/media/food_9.png": "/Gelato_reactapp/static/media/food_9.6c33dfdd7acf604c7d1f.png",
+    "static/media/food_8.png": "/Gelato_reactapp/static/media/food_8.6c2e70197bb0642ade5a.png",
+    "static/media/food_7.png": "/Gelato_reactapp/static/media/food_7.a756cc2b95289d6a176e.png",
+    "static/media/food_4.png": "/Gelato_reactapp/static/media/food_4.530a7bb5237178364698.png",
+    "static/media/food_3.png": "/Gelato_reactapp/static/media/food_3.9d4f1e6f62a5cb0ddc53.png",
+    "static/media/food_10.png": "/Gelato_reactapp/static/media/food_10.9dcde4f5bce236c490dc.png",
+    "static/media/food_6.png": "/Gelato_reactapp/static/media/food_6.30c0f952dc9a856c0e58.png",
+    "static/media/food_11.png": "/Gelato_reactapp/static/media/food_11.2eb2db0405b7cf41c7a5.png",
+    "static/media/food_2.png": "/Gelato_reactapp/static/media/food_2.4389ac8f2e17a2c9a7d2.png",
+    "static/media/Chocolate.png": "/Gelato_reactapp/static/media/Chocolate.417b11d32008698287e4.png",
+    "static/media/Strawberry.png": "/Gelato_reactapp/static/media/Strawberry.ef7a86da69f2c849ef89.png",
+    "static/media/Menta.png": "/Gelato_reactapp/static/media/Menta.bff595a38e9ab98a784e.png",
+    "static/media/Apricot.png": "/Gelato_reactapp/static/media/Apricot.0689f39308c583510c71.png",
+    "index.html": "/Gelato_reactapp/index.html",
+    "static/media/less_icon.svg": "/Gelato_reactapp/static/media/less_icon.d4c978f74e4c7344a35b61e985ff1c4f.svg",
+    "main.923a66c8.css.map": "/Gelato_reactapp/static/css/main.923a66c8.css.map",
+    "main.79d99feb.js.map": "/Gelato_reactapp/static/js/main.79d99feb.js.map",
+    "453.9dc6dbad.chunk.js.map": "/Gelato_reactapp/static/js/453.9dc6dbad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.923a66c8.css",
+    "static/js/main.79d99feb.js"
+  ]
+}
