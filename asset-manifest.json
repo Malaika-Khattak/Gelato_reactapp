@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Gelato_reactapp/static/css/main.923a66c8.css",
-    "main.js": "/Gelato_reactapp/static/js/main.79d99feb.js",
+    "main.js": "/Gelato_reactapp/static/js/main.6afd455d.js",
     "static/js/453.9dc6dbad.chunk.js": "/Gelato_reactapp/static/js/453.9dc6dbad.chunk.js",
     "static/media/scones.jpeg": "/Gelato_reactapp/static/media/scones.fbc5e273358f2697dc3e.jpeg",
     "static/media/outdoor.jpg": "/Gelato_reactapp/static/media/outdoor.baea7e7762605597f3fd.jpg",
@@ -31,11 +31,11 @@
     "index.html": "/Gelato_reactapp/index.html",
     "static/media/less_icon.svg": "/Gelato_reactapp/static/media/less_icon.d4c978f74e4c7344a35b61e985ff1c4f.svg",
     "main.923a66c8.css.map": "/Gelato_reactapp/static/css/main.923a66c8.css.map",
-    "main.79d99feb.js.map": "/Gelato_reactapp/static/js/main.79d99feb.js.map",
+    "main.6afd455d.js.map": "/Gelato_reactapp/static/js/main.6afd455d.js.map",
     "453.9dc6dbad.chunk.js.map": "/Gelato_reactapp/static/js/453.9dc6dbad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.923a66c8.css",
-    "static/js/main.79d99feb.js"
+    "static/js/main.6afd455d.js"
   ]
 }
